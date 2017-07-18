@@ -10,6 +10,6 @@ Example:
 
 ## Use:
 
-git clone git@github.com:mharyst/editor-app-boilerplate.git app/editor/base/elements/new-app
+`git clone git@github.com:mharyst/editor-app-boilerplate.git app/editor/base/elements/new-app`
 
 `new-app = your app name`
