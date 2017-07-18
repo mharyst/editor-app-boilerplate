@@ -2,7 +2,7 @@ import classNames from 'classnames'
 import css from './index.scss'
 
 export default (Component) => {
-  class ContactForm extends React.Component {
+  class APP_NAME extends React.Component {
     static propTypes = {
       content: PropTypes.object,
       $editor: PropTypes.object,
@@ -40,5 +40,5 @@ export default (Component) => {
       </div>
     }
   }
-  return ContactForm
+  return APP_NAME
 }

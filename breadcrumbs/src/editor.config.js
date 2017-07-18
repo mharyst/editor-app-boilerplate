@@ -1,10 +1,10 @@
-import Breadcrumbs from './component'
+import APP_NAME from './component'
 import {initProps} from './props'
 import {settings} from './settings'
 import thumbnail from './thumbnail.svg'
 
 export default {
-  appId: 'breadcrumbs',
+  appId: 'APP_ID',
   sections: {
     'apps': {
       title: 'Built in Apps',
@@ -13,12 +13,12 @@ export default {
   },
   components: {
     contactForm: {
-      name: 'Breadcrumbs',
+      name: 'APP_NAME',
       sectionId: 'apps',
-      description: 'Breadcrumbs App',
+      description: 'APP_NAME App',
       thumbnail,
       priority: 2,
-      Component: Breadcrumbs,
+      Component: APP_NAME,
       options: {
         selection: 'frame'
       },

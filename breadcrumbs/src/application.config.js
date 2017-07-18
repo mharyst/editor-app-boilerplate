@@ -1,10 +1,10 @@
-import Breadcrumbs from './component'
+import APP_NAME from './component'
 
 export default {
-  appId: 'breadcrumbs',
+  appId: APP_ID,
   components: {
-    breadcrumbs: {
-      Component: Breadcrumbs
+    APP_ID: {
+      Component: APP_NAME
     }
   }
 }

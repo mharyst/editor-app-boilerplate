@@ -43,7 +43,7 @@ class Settings extends React.Component {
 
   render() {
     return (
-      <Tabs className="tabs_app tabs_map"
+      <Tabs className="tabs_app"
             tabs={tabs}
             generateTabProps={this.generateTabProps}/>
     )
@@ -52,6 +52,6 @@ class Settings extends React.Component {
 
 export const settings = {
   component: Settings,
-  title: 'Breadcrumbs settings',
+  title: 'APP_NAME settings',
   relativeProps: ['design', 'content']
 }

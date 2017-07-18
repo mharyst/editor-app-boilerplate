@@ -11,8 +11,8 @@ class Component extends React.Component {
     this.presetCss = require(`./presets/${preset}/index.scss`)
 
     return (
-      <div className={classNames(this.presetCss.breadcrumbs)}>
-        Home – Product
+      <div className={classNames(this.presetCss.APP_ID)}>
+        Component content
       </div>
     )
   }

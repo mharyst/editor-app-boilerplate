@@ -3,6 +3,6 @@ export const initProps = {
     preset: 'default'
   },
   content: {
-    pageId: null
+    property: null
   }
 }
