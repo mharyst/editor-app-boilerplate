@@ -23,7 +23,7 @@ export default {
         selection: 'frame'
       },
       initProps,
-      contextPanel: [['Breadcrumbs settings', {modalContent: settings}, 'settingsIco']]
+      contextPanel: [['APP_NAME settings', {modalContent: settings}, 'settingsIco']]
     }
   }
 }
